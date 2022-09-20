@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 10vw;
+}
+
+/* start app-bar*/
+.app-bar {
+    width: auto;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(var(--yc-primary-color), 0.5);
+}
+
+.app-bar .left,
+.app-bar .right {
+    width: 336px;
+}
+
+.app-bar .right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.app-bar .left {
+    width: 336px;
+    font-weight: bold;
+}
+
+.left i {
+    font-size: 25px;
+}
+
+.btn-add {
+    margin-left: 10px;
+    padding: 3px 5px;
+    font-size: 15px;
+}
+
+/* end app-bar */
+/* start post */
+.post {
+    margin: 20px 0 20px 0;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: rgba(var(--yc-primary-color), 0.6);
+}
+
+.date span {
+    margin-right: 5px;
+    width: 5px;
+    height: 20px;
+    background-color: rgba(var(--yc-primary-color), 0.6);
+}
+
+.post img {
+    width: 60vw;
+    height: 35vw;
+}
+
+/* end post */
+/* start post-footer */
+.post-footer {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-footer span {
+    font-weight: bold;
+}
+
+/* end post-footer */
+/* start footer */
+.footer {
+    margin: 0 auto 60px auto;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-edit {
+    width: 200px;
+    font-weight: bold;
+}
+
+.btn-edit:hover {
+    color: black !important;
+    background-color: white;
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+}
+
+.btn-delete {
+    width: 200px;
+    font-weight: bold;
+    --yc-color: 232, 26, 26;
+}
+
+.btn-delete:hover {
+    background-color: rgb(232, 26, 26);
+    box-shadow: 0 0 0 4px rgba(232, 26, 26, 0.4);
+    -webkit-box-shadow: 0 0 0 4px rgba(232, 26, 26, 0.4);
+    -moz-box-shadow: 0 0 0 4px rgba(232, 26, 26, 0.4);
+    transition: 0.3s;
+}
+
+/* end footer */

@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 10vw;
+}
+
+/* start app-bar*/
+.app-bar {
+    width: auto;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(var(--yc-primary-color), 0.5);
+}
+
+.app-bar .left {
+    width: 336px;
+    font-size: 12px;
+}
+
+.app-bar .left p:first-child {
+    font-weight: bold;
+}
+
+.app-bar .right {
+    width: 336px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.search-box {
+    width: 170px;
+    height: 27px;
+}
+
+.btn-subscribe {
+    margin-left: 10px;
+    padding: 7px 10px;
+    font-size: 10px;
+}
+
+.right div {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.right div p {
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+/* end app-bar */
+/* start post */
+.post {
+    margin: 20px 0 20px 0;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: rgba(var(--yc-primary-color), 0.6);
+}
+
+.date span {
+    margin-right: 5px;
+    width: 5px;
+    height: 20px;
+    background-color: rgba(var(--yc-primary-color), 0.6);
+}
+
+.post img {
+    width: 60vw;
+    height: 35vw;
+}
+
+/* end post */
+/* start post-footer */
+.post-footer {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-footer span {
+    font-weight: bold;
+}
+
+/* end post-footer */
+/* start footer */
+.footer {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.previous-post,
+.next-post {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 45%;
+    height: 77px;
+    border: 1px solid rgb(var(--yc-primary-color));
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.previous-post:hover,
+.next-post:hover {
+    box-shadow: 0 0 0 4px rgba(var(--yc-primary-color), 0.3);
+    -webkit-box-shadow: 0 0 0 4px rgba(var(--yc-primary-color), 0.3);
+    -moz-box-shadow: 0 0 0 4px rgba(var(--yc-primary-color), 0.3);
+    transition: 0.3s;
+}
+
+.previous-post>div,
+.next-post>div {
+    margin-left: 10px;
+    height: 73px;
+    overflow: hidden;
+}
+
+.previous-post i,
+.next-post i {
+    margin: auto 10px;
+    font-size: 35px;
+}
+
+.previous-post img,
+.next-post img {
+    width: 35%;
+    height: 100%;
+}
+
+.previous-post p,
+.next-post p {
+    font-size: 13px;
+}
+
+.previous-post .date span,
+.next-post .date span {
+    width: 3px;
+    height: 15px;
+}
+
+/* end footer */

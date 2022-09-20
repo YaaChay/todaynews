@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    padding: 100px 0px 0px 0px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    color: rgba(var(--yc-primary-color), 0.6);
+}
+
+.input-box {
+    margin: 10px auto;
+    width: 280px;
+}
+
+.input-box p {
+    text-align: start;
+}
+
+.btn-login {
+    margin-top: 10px;
+    width: 272px;
+}
+.btn-login:hover {
+    background-color: rgb(var(--yc-primary-color));
+    box-shadow: 0 0 0 4px rgba(var(--yc-primary-color), 0.4);
+    -webkit-box-shadow: 0 0 0 4px rgba(var(--yc-primary-color), 0.4);
+    -moz-box-shadow: 0 0 0 4px rgba(var(--yc-primary-color), 0.4);
+    transition: 0.3s;
+}
+.btn-login:focus{
+    background-color: rgba(var(--yc-primary-color),0.8);
+}

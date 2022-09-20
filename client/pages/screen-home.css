@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 10vw;
+}
+
+/* start news-container1 */
+.news-container1 {
+    margin: 15px 0;
+    width: auto;
+    height: 600px;
+    display: flex;
+}
+
+.political-post {
+    margin-right: 20px;
+    width: 70%;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.political-post:hover {
+    scale: 1.01;
+    transition: 0.7s;
+}
+
+.political-post .poster {
+    width: 100%;
+    height: 60%;
+}
+
+.right-political {
+    width: 30%;
+    height: 100%;
+}
+
+.category {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+    background-color: rgba(var(--yc-primary-color), 0.5);
+}
+
+.category {
+    color: white;
+}
+
+.category span {
+    margin-right: 5px;
+    width: 7px;
+    height: 25px;
+    background-color: rgb(var(--yc-primary-color));
+}
+
+.right-political .political-post {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 46%;
+}
+
+.right-political .political-post p {
+    font-size: 13px;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: rgba(var(--yc-primary-color), 0.6);
+}
+
+.date span {
+    margin-right: 5px;
+    width: 5px;
+    height: 20px;
+    background-color: rgba(var(--yc-primary-color), 0.6);
+}
+
+.right-political .political-post .date span {
+    width: 3px;
+    height: 15px;
+}
+
+/* end news-container1 */
+/* start news-container2 */
+.news-container2 {
+    margin: 15px 0;
+    width: auto;
+    height: 600px;
+    display: flex;
+}
+
+.education-post {
+    margin-right: 20px;
+    width: 70%;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.education-post:hover {
+    scale: 1.01;
+    transition: 0.7s;
+}
+
+.education-post .poster {
+    width: 100%;
+    height: 60%;
+}
+
+.right-education {
+    width: 30%;
+    height: 100%;
+}
+
+.right-education .education-post {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 77px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.right-education .poster {
+    width: 35%;
+    height: 100%;
+}
+
+.right-education .right {
+    margin-left: 10px;
+}
+
+.right-education .education-post p {
+    font-size: 13px;
+}
+
+.right-education .education-post .date span {
+    width: 3px;
+    height: 15px;
+}
+
+/* end news-container2 */
+/* start news-container3 */
+.news-container3 {
+    margin: 15px 0;
+    width: auto;
+    height: 600px;
+    display: block;
+}
+
+.business-post {
+    margin: 30px auto 30px auto;
+    width: 90%;
+    height: 40%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.business-post:hover {
+    scale: 1.01;
+    transition: 0.7s;
+}
+
+.business-post .poster {
+    width: 40%;
+    height: 100%;
+}
+
+.bottom-business {
+    width: 100%;
+    height: 43%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom-business .business-post {
+    margin: 0px;
+    width: 30%;
+    height: 100%;
+    display: block;
+}
+
+.bottom-business .poster {
+    width: 100%;
+    height: 50%;
+}
+
+.bottom-business .business-post {
+    font-size: 14px;
+}
+
+.bottom-business .business-post .date {
+    font-size: 13px;
+}
+
+.bottom-business .business-post .date span {
+    width: 3px;
+    height: 15px;
+}
+
+/* end news-container3 */
+/* start news-container4 */
+.news-container4 {
+    margin: 15px 0;
+    width: auto;
+    height: 600px;
+    overflow: hidden;
+}
+
+.other-news {
+    margin-top: 50px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.post {
+    display: flex;
+    cursor: pointer;
+}
+
+.post:hover {
+    scale: 1.01;
+    transition: 0.7s;
+}
+
+.post .poster {
+    width: 120px;
+}
+
+.post .right {
+    margin-left: 10px;
+}
+
+.post .right .date {
+    font-size: 14px;
+}
+
+.post .right .date span {
+    width: 3px;
+    height: 15px;
+}
+
+/* end news-container4 */
